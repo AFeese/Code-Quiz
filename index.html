@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Welcome to the Quiz!</h1>
+        <h3 class="time">Your timer will appear here when ready. Good Luck!</h3>
+      </header>
+
+      <div class="card">
+        <div class="card-header">
+          <div id="question-box" style="text-align:center">-- QUESTIONS --</div>
+            <p></p>
+        </div>
+
+        <!-- Chosen answers are written here with new divs-->
+        <div class="card-body" id="cardbody">
+          <div id="answer-box"></div>
+            <ul id=answerChoices></ul>
+        </div>
+
+
+        <!-- start quiz-->
+        <div class="card-footer">
+          <button id="generate" class="btn" alt="start quiz">Start Quiz</button>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="questions.js"></script>
+  </body>
+</html>
