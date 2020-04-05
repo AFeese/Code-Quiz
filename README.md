@@ -1,3 +1,23 @@
+# Ashley's ReadMe
+
+Hello! Thanks for viewing my program. Upon rendering the browser program, user is prompted to begin a quiz with a start button, question area, and timer. The user is timed once the start button is clicked and program begins by asking four questions. For each correct question, a "correct!" prompt is provided, as well as the answer for that previous question and the time remains the same. If the user selects the incorrect answer, user is prompted "INCORRECT!", provided the correct answer, and 10 seconds are deducted from the countdown timer. Once the user answers all four questions, user is prompted with their score out of the 4 total questions. User is then able to enter their initials, and redirected to a new page once "submit" is clicked. This new page displays all current high scores stored in the client-side storage. The scores are cleared once the user selects the "clear" button. During the entire quiz, user has access to the "high scores" link, which redirects them to the "scores" html (high scores page). 
+
+
+
+I hope you enjoy this program. 
+Thank you!
+
+
+Ashley Feese
+
+
+
+
+# Original Instruction: 
+
+
+
+
 # 04 Web APIs: Code Quiz
 
 As you proceed in your career as a web developer, you will probably be asked to complete a coding assessment, which is typically a combination of multiple-choice questions and interactive challenges. Build a timed code quiz with multiple-choice questions. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.

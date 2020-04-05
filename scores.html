@@ -13,11 +13,11 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Welcome to the Quiz!</h1>
-        <h3 class="time">Your timer will appear here when ready. Good Luck!</h3>
+        <h1>THANKS FOR PARTICIPATING!</h1>
+        <h3 class="time">--SOME TEXT--</h3>
       </header>
 
-      <!-- Generated questions are pushed here, as well as final scoring-->
+      <!-- div to hold generated questions and scores-->
       <div class="card">
         <div class="card-header">
           <div id="question-box" style="text-align:center">-- QUESTIONS --</div>
@@ -32,15 +32,15 @@
         </div>
 
 
-        <!-- start quiz and view high scores-->
+        <!--Go back button and clear quiz scores-->
         <div class="card-footer">
-          <button id="generate" class="btn" alt="start quiz">Start Quiz</button>
-          <a href="scores.html">Click to View High Scores</a>
+          <a href="index.html">Go Back</a>
+          <button id="clear" value="reset">Clear Scores</button>
         </div>
       </div>
     </div>
 
 
-    <script src="questions.js"></script>
+    <script src="scores.js"></script>
   </body>
 </html>
