@@ -1,6 +1,6 @@
 # Ashley's ReadMe
 
-Link to deployed application: https://apollodragon13.github.io/Code-Quiz/
+Link to deployed application: https://AFeese.github.io/Code-Quiz/
 
 Hello! Thanks for viewing my program. Upon rendering the browser program, user is prompted to begin a quiz with a start button, question area, and timer. The user is timed once the start button is clicked and program begins by asking four questions. For each correct question, a "correct!" prompt is provided, as well as the answer for that previous question and the time remains the same. If the user selects the incorrect answer, user is prompted "INCORRECT!", provided the correct answer, and 10 seconds are deducted from the countdown timer. Once the user answers all four questions, user is prompted with their score out of the 4 total questions. User is then able to enter their initials, and redirected to a new page once "submit" is clicked. This new page displays all current high scores stored in the client-side storage. The scores are cleared once the user selects the "clear" button. During the entire quiz, user has access to the "high scores" link, which redirects them to the "scores" html (high scores page). 
 
